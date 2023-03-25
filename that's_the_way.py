@@ -3,5 +3,5 @@ import os
 
 def deep_files(path):
     files = os.listdir(path)
-    deep_named_files = filter(lambda x: x.startswith('deep'), files)
+    deep_named_files = filter(lambda x: x.startswith('deep'), files)  # filter all the files
     return list(deep_named_files)
